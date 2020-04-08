@@ -1,0 +1,48 @@
+li{ list-style-type: square}
+#cena {
+	color: red;
+	font-weight: bold;
+}
+.wstep {
+	font-style: italic;
+}
+td img {
+	border-style: solid;
+	border-color: blue;
+}
+td img:hover {
+    border-style: solid;
+    border-color: red;
+}
+
+td img.resize {
+  max-width:70%;
+  max-height:70%;
+}
+
+h2 {
+	letter-spacing: 5px;
+}
+
+td[colspan="2"] {
+	font-size: small;
+} 
+
+body {
+	background-image: url(test.png); background-repeat: repeat-y
+}
+
+p:not(:first-child) {
+	color: grey;
+}
+
+h1{ color: blue}
+h1{ color: green}
+
+#wydawnictwoId{
+	text-decoration: underline;
+}
+
+.bold {
+	font-weight: bold;
+}
